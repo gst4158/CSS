@@ -1,0 +1,14 @@
+/*	Media Query - Mobile & Tablet
+===================================== */
+@include media-query( $breakpoints:('tablet', 'mobile') ) {
+	.tablet-hidden,
+  .mobile-hidden{
+		display: block;
+	}
+}
+
+@include media-query( 'desktop' ) {
+	.desktop-hidden {
+		display: none;
+	}
+}
